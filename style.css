@@ -1,0 +1,150 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html  body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1,7em;
+   }
+
+.link
+{
+    margin: 10px;
+    text-decoration: none !important;
+    color: #fff;
+    font-size: 19px;
+    float:right;
+}
+.link:hover
+{
+    color: goldenrod;
+}
+#bg
+{
+    background-image: url('./medium.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+   
+}
+#bg .showcase-content{
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding-top:500px;
+}
+
+#bg .showcase-content h1{
+    font-size:75px;
+    line-height:1.2em;
+    
+}
+
+#bg .showcase-content p {
+    padding-bottom:20px;
+    line-height: 1.7em;
+}
+
+.img
+{
+    width: 100%;
+    
+
+}
+
+.about
+{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 60px;
+}
+.right 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.right , h1{
+    text-align: center;
+    
+}
+.right , p{
+    padding: 60px 60px 0 60px;
+}
+.bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  .bg-light {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .bg-primary {
+    background: #f7c08a;
+    color: #333;
+  }
+  #contact-form{
+    background-color: rgb(85,75,79);
+    color: white;
+  }
+  #contact-form .form-group{
+    margin-bottom:20px;
+}
+#contact-form label{
+    display:block;
+    margin-bottom:5px;
+    
+}
+
+#contact-form input, #contact-form textarea {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding:10px;
+    border:1px #ddd slod;
+}
+
+#contact-form textarea{
+    height:200px;
+}
+#contact-form input:focus, #contact-form textarea:focus {
+    outline:none;
+    border-color:#f7c08a
+}
+  /* Padding */
+  .py-1{padding:10px 0 ;}
+  .py-2{padding:20px 0 ;}
+  .py-3{padding:30px 0 ;}
+  .btn{
+    display:inline-block;
+    font-size:18px;
+    color:#fff;
+    background:#333;
+    padding:13px 20px;
+    border:none;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#f7c08a;
+    color:#333
+}
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+  }
+  .container2{
+    margin:auto;
+    max-width: 1100px;
+    overflow:auto;
+    padding:0 20px;
+}
